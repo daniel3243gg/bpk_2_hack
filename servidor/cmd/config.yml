@@ -1,0 +1,10 @@
+database:
+  host: "shinkansen.proxy.rlwy.net"
+  port: 21539
+  user: "root"
+  password: "mbWVKfedBXvCYwvhVeboghqovTYNYVPw"
+  name: "bpk_hack"
+  type: "mysql"
+
+jwt:
+  secret: 'V/NE}~&Mq*OUM9Ua{F-7£?[6?1:ya`2j1E.SN2\F)w6E^tT<J:'
