@@ -1,0 +1,37 @@
+:host {
+    display: block;
+    width: 100%;
+}
+.card{
+    background-color: white;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 1.2em;
+}
+
+
+.entregador{
+    font-size: .8em;
+}
+
+.endereco{
+    font-size: 0.7em;
+    color: #939393;
+}
+
+.btn{
+    color: white;
+}
+.total{
+    color: #939393;
+    font-size: .9em;
+}
+
+.dinherio{
+    color: #242323;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.row{
+    max-width: 100%;
+}

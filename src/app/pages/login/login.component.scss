@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+.logoescura{
+width: 100px;
+height: auto;
+
+}
+
+
+
+.head{
+background-color: #0C1C2C;
+width: 100%;
+
+}
+
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 80vh;
+
+}
+
+.daniel{
+display: flex;
+
+
+}
+
+.luis{
+border: 2px solid gray;
+border-radius: 10px 0 0 10px;
+width: 450px;
+height: 500px;
+
+}
+.matheus{
+border-radius: 0 10px 10px 0;
+width: 350px;
+height: auto;
+background-image: url('/assets/imageLibvro.png');
+background-size: cover;        
+background-position: center;  
+background-repeat: no-repeat; 
+
+}
+
+.eduardo {
+text-align: center;
+    background-color: #E53935;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px 0 0 0;
+    color: white;
+    font-family:  "Montserrat", sans-serif;
+    
+}
+
+.vinicius{
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    font-family:"Poppins", sans-serif; 
+  }
+
+  .fellipe{
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    font-family:"Poppins", sans-serif; 
+  }
+
+  .maria{
+    margin-top: 50px;
+  }
+ 
+  .nelci{
+    border-radius:10px ;
+    width:400px;
+    height: 50px;
+    margin: 10px;
+    background-color: #E53935;
+    font-family:"Montserrat", sans-serif; 
+    color: white;
+    margin-top: 50px;
+
+  }
+
+.amanda{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+}
+.altair{
+    border-radius:10px ;
+    width:200px;
+    height: 50px;
+    margin: 10px;
+    background-color: #E53935;
+    font-family:"Montserrat", sans-serif; 
+    color: white;
+    margin-top: 90px;
+    margin-left: 70px;
+    cursor: pointer;
+
+}
+
+  label{
+font-family: "Poppins", sans-serif;
+margin: 10px;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .daniel {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .luis, .matheus {
+      width: 90%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .vinicius,
+    .fellipe,
+    .nelci {
+      width: 90%;
+      font-size: 16px;
+    }
+  
+    .eduardo {
+      font-size: 20px;
+      height: 45px;
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .amanda {
+      font-size: 18px;
+      margin: 30px 10px 10px;
+    }
+  
+    .altair {
+      width: 70%;
+      margin: 30px auto;
+      display: block;
+    }
+  
+    header img {
+      width: 150px;
+      display: block;
+      margin: 20px auto;
+    }
+  
+    .matheus {
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 20px;
+    }
+  }
+  

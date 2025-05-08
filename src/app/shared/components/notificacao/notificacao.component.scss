@@ -1,0 +1,43 @@
+.notif{
+    z-index: 1005;
+    margin: 0 -2.5em;
+}
+/* Animação de entrada */
+@keyframes slideInRight {
+    0% {
+      transform: translateX(100%); /* Começa fora da tela */
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); /* Move-se para a posição normal */
+      opacity: 1;
+    }
+  }
+  
+  /* Animação de saída */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1; /* Totalmente visível */
+    }
+    100% {
+      opacity: 0; /* Fica transparente */
+      transform: translateY(-20px); /* Pequeno movimento para cima */
+    }
+  }
+  
+  .toast {
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  /* Animação de entrada */
+  .toast.show {
+    animation-name: slideInRight;
+  }
+  
+  /* Animação de saída */
+  .animacao {
+    animation-name: fadeOut;
+  }
+  

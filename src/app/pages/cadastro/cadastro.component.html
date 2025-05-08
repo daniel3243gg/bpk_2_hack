@@ -1,0 +1,83 @@
+<div>
+    <main>
+      <div class="Container-cadastro">
+        <div class="left-cadastro">
+          <div class="h2-cadastro">
+            <h2>Realize O Cadastro</h2>
+          </div>
+          <form (submit)="onSubmit()">
+            <div class="container-inputs">
+              <div class="tel1">
+                <div class="input-junto">
+                  <label for="Nome">Informe Seu Nome</label>
+                  <input
+                    type="text"
+                    id="Nome"
+                    formControlName="Nome"
+                    placeholder="Digite seu Nome completo"
+                  />
+                  
+                </div>
+                <div class="input-junto">
+                  <label for="Email">Informe Seu E-mail</label>
+                  <input
+                    type="Email"
+                    id="Email"
+                    formControlName="Email"
+                    placeholder="Digite seu e-mail"
+                  />
+                
+                </div>
+                <div class="input-junto">
+                  <label for="Telefone">Informe Seu Telefone</label>
+                  <input
+                    type="tel"
+                    id="Telefone"
+                    formControlName="Telefone"
+                    placeholder="Digite seu Telefone"
+                  />
+                </div>
+              </div>
+  
+              <div class="tel2">
+                <div class="input-junto">
+                  <label for="Password">Crie uma Senha Forte</label>
+                  <input
+                    type="Password"
+                    id="Password"
+                    formControlName="Password"
+                    placeholder="Crie uma senha segura"
+                  />
+                  
+                </div>
+                <div class="input-junto">
+                  <label for="AreaDeAtuacao">Área de atuação</label>
+                  <select id="AreaDeAtuacao" formControlName="AreaDeAtuacao">
+                    <option value="">Selecione uma opção</option>
+                    <option value="tecnologia">Tecnologia</option>
+                    <option value="design">Ciência</option>
+                    <option value="marketing">Produção</option>
+                    <option value="engenharia">Engenharia</option>
+                  </select>
+                 
+                </div>
+              </div>
+  
+              <button id="btn-Cadastro" type="submit">Cadastrar-Se</button>
+              
+              @if (errorMessage) {
+                <p id="errorMessage" style="color: red; margin-top: 10px;">
+                  {{ errorMessage }}
+                </p>
+              }
+            </div>
+          </form>
+        </div>
+  
+        <div class="right-cadastro">
+          <h2>Já Possui um Login? Então Conecte-se clicando no botão</h2>
+          <button id="loginButton" (click)="conectar()">Conectar-se</button>
+        </div>
+      </div>
+    </main>
+  </div>

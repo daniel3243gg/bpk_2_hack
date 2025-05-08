@@ -1,0 +1,37 @@
+<section id="login-page">
+    <div>
+        <main>
+            <div class="daniel">
+                <div class="luis">
+                    <h1 class="eduardo">Faça O Login</h1>
+                    <form [formGroup]="formLogin" (submit)="onSubmit()" id="loginForm">
+                        <div class="maria">
+                            <div>
+                                <label for="email">Informe seu e-mail</label>
+                                <input class="vinicius" type="email" id="email" formControlName="email" required />
+                            </div>
+                            <div>
+                                <label for="password">Informe sua Senha</label>
+                                <input class="fellipe" type="password" id="password" formControlName="password"
+                                    required />
+                            </div>
+                        </div>
+                        <p id="errorMessage" style="color: red; text-align: center; display: none;"></p>
+                        <button type="submit" class="nelci">Conectar-se</button>
+                    </form>
+                </div>
+
+                <div class="matheus">
+                    <h1 class="amanda">
+                        Ainda Não Possui Cadastro? Clique aqui e realize seu Cadastro!
+                    </h1>
+                    <button class="altair" id="registerButton" (click)="cadastrar()">
+                        Cadastrar-se
+                    </button>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+</section>

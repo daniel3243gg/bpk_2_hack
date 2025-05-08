@@ -1,0 +1,24 @@
+<div 
+ 
+    aria-live="polite" 
+    aria-atomic="true" 
+    class="justify-content-center position-fixed  align-items-center w-100 p-3 notif"  
+    >
+
+    <!-- Then put toasts within -->
+     
+    <div   [class]="classe + ' position-absolute top-0 end-0 ' "  role="alert" aria-live="assertive" aria-atomic="true" [style]="{ 'background-color': color }">
+      <div class="toast-header">
+        
+        <strong class="me-auto">{{titulo}}</strong>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" (click)="fechar()"></button>
+      </div>
+      <div class="toast-body" [style]="{ 'color': textColor }">
+            {{descricao}}
+      </div>
+    </div>
+
+
+
+</div>

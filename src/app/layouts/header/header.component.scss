@@ -1,0 +1,20 @@
+
+
+header{
+    background-color: #0C1C2C    ;
+    color: white;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    height: 100px;
+    margin: 0;
+    & img{
+        margin-right: 1.2em;
+        max-width: 100px;
+    }
+
+    & nav{  
+        padding: 1.5em;
+    }
+}
+

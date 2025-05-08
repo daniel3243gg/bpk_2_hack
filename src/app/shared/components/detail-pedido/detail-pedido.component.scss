@@ -1,0 +1,49 @@
+@import "../../../../styles/variaveis";
+
+
+.btn{
+    color: white;
+}
+
+.container{
+    background-color: white;
+
+}
+
+
+.endereco{
+    font-size: 0.7em;
+}
+
+.cinza-forte{
+    color: #939393;
+}
+
+.aumentar-destaque{
+    font-weight: 600;
+}
+
+.divisor{
+    border-top: 1px solid black;
+    width: 70%;
+
+}
+.hora{
+    font-style: italic;
+    color:  #6F6F6F;
+    font-size: 1.2em;
+}
+
+.item{
+    background-color: $cor-cinza;
+}
+.fundo-bola {
+    background-color: #D9D9D9;
+    width: 30px;  /* Ajuste conforme necessário */
+    height: 30px; /* Deve ser igual à largura */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
